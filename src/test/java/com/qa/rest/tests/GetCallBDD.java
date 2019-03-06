@@ -31,18 +31,6 @@ public class GetCallBDD {
 			and().             //We can assert number things with AND operator
 			body("MRData.CircuitTable.Circuits.circuitId", hasSize(20)).  //Coming from hamcrest
 			and(). //AND operator to assert few things
-			header("Content-Length", equalTo("4551"));
-			
-		
-		
-		
-		
-		
-		
-		
-		
-		
+			header("Content-Length", equalTo("4551"));	
 	}
-		
-
 }
