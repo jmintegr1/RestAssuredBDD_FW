@@ -32,5 +32,6 @@ public class GetCallBDD {
 			body("MRData.CircuitTable.Circuits.circuitId", hasSize(20)).  //Coming from hamcrest
 			and(). //AND operator to assert few things
 			header("Content-Length", equalTo("4551"));	
+		
 	}
 }
